@@ -24,3 +24,12 @@ def first_letter(word):
 
 print first_letter('Hello World')
 first_letter(['Not', 'A', 'String'])
+
+class Test(object):
+
+    @staticmethod
+    @type_check(float)
+    def times3(num):
+        return num*3
+
+print Test().times3(2.0)

@@ -1,7 +1,7 @@
 
 # -*- coding: utf-8 -*-
 
-import json, cPickle
+import json
 
 # fix this function, so it adds the given name
 # and salary pair to salaries_json, and return it

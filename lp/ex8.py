@@ -20,3 +20,4 @@ for num in numbers:
 
 for num in [x for x in numbers[:numbers.index(237)] if x % 2 == 0]:
     print num
+
